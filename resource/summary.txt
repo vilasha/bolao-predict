@@ -31,8 +31,7 @@ Netherlands vs Sweden, group stage, Houston Stadium (Houston), 18:00 local
 Germany vs Ivory Coast, group stage, Toronto Stadium (Toronto), 21:00 local
 
 
-Should we maybe change the prompt or decrease rho so its more goals per game get predicted? The results so far: 
-
+Results
 
 Mexico vs South Africa - preidicted 2-1, actual 2-1, result exact (25 points)
 South Korea vs Czechia - predicted 1-0, actual 2-1, result difference (18 points)
@@ -62,9 +61,9 @@ Czechia vs South Africa - predicted 2-0, actual 1-1, result miss (0 points)
 Switzerland vs Bosnia and Herzegovina - predicted 2-1, actual 4-1, result outcome (12 points)
 Canada vs Qatar - predicted 2-0, actual 6-0, result outcome (12 points)
 Mexico vs South Korea - predicted 2-1, actual 1-0, result difference (18 points)
-United States vs Australia - predicted 2-1, actual
-Scotland vs Morocco - predicted 1-1, actual 
-Brazil vs Haiti - predicted 3-1, actual
-Turkey vs Paraguay - predicted 2-1, actual 
+United States vs Australia - predicted 2-1, actual 2-0, result outcome (12 points)
+Scotland vs Morocco - predicted 1-1, actual 0-1, result miss (0 points)
+Brazil vs Haiti - predicted 3-1, actual 3-0, result outcome (12 points)
+Turkey vs Paraguay - predicted 2-1, actual 0-1, result miss (0 points)
 Netherlands vs Sweden - predicted 3-2, actual
 Germany vs Ivory Coast - predicted 4-0, actual 
