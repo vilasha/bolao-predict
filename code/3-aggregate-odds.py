@@ -14,7 +14,7 @@ The resulting outcome probabilities are written as margin-free decimal odds.
 
 specific.csv format (header required; empty numeric fields take defaults):
     home_team,away_team,stage,elo_adj_home,elo_adj_away,home_adv_elo,total_goals,rho,notes
-    Mexico,South Africa,group,0,-25,75,2.4,-0.10,SA missing first-choice GK; Azteca crowd
+    Mexico,South Africa,group,0,-25,75,2.9,-0.05,SA missing first-choice GK; Azteca crowd
 
 stage is one of: group, r32, r16, qf, sf, third, final (default group); it is
 passed through to odds.csv for the Layer 3 stage multiplier.
@@ -37,8 +37,15 @@ from datetime import date, timedelta
 from pathlib import Path
 
 MAX_GOALS = 10
-DEFAULT_TOTAL_GOALS = 2.5
-DEFAULT_RHO = -0.10
+DEFAULT_TOTAL_GOALS = 2.9
+DEFAULT_RHO = -0.05
+
+# Mismatch goal model: a lopsided Elo gap means the favourite piles on goals that
+# a fixed tempo-only total_goals cannot express (the old 3.2 ceiling made blowouts
+# impossible). Add goals proportional to the gap; the win-expectancy split below
+# then hands most of those extra goals to the favourite.
+GAP_GOALS_PER_ELO = 0.0025   # +1.0 expected goal per 400 Elo of mismatch
+TOTAL_GOALS_CAP = 5.0        # effective total never exceeds this
 
 ALLOWED_STAGES = {"group", "r32", "r16", "qf", "sf", "third", "final"}
 
@@ -84,6 +91,11 @@ def outcome_probs(grid: list[list[float]]) -> tuple[float, float, float]:
 
 def win_expectancy_from_elo(elo_diff: float) -> float:
     return 1.0 / (1.0 + 10.0 ** (-elo_diff / 400.0))
+
+
+def mismatch_goal_bonus(elo_diff: float) -> float:
+    """Extra expected goals contributed by a one-sided fixture (GAP_GOALS_PER_ELO)."""
+    return abs(elo_diff) * GAP_GOALS_PER_ELO
 
 
 def solve_lambdas(win_expectancy: float, total_goals: float, rho: float) -> tuple[float, float]:
@@ -201,7 +213,9 @@ def main() -> None:
         elo_diff = elo_home + fixture.home_adv_elo - elo_away
         target_we = win_expectancy_from_elo(elo_diff)
 
-        lam_home, lam_away = solve_lambdas(target_we, fixture.total_goals, fixture.rho)
+        effective_total = min(fixture.total_goals + mismatch_goal_bonus(elo_diff),
+                              TOTAL_GOALS_CAP)
+        lam_home, lam_away = solve_lambdas(target_we, effective_total, fixture.rho)
         prob_home, prob_draw, prob_away = outcome_probs(
             score_matrix(lam_home, lam_away, fixture.rho))
 
@@ -213,7 +227,8 @@ def main() -> None:
         print(f"{fixture.home_team} vs {fixture.away_team}: "
               f"Elo diff {elo_diff:+.0f} -> We {target_we:.1%}  "
               f"H {prob_home:.1%} / D {prob_draw:.1%} / A {prob_away:.1%}  "
-              f"(λ {lam_home:.2f}-{lam_away:.2f}, total {fixture.total_goals})"
+              f"(λ {lam_home:.2f}-{lam_away:.2f}, total {effective_total:.2f} "
+              f"= base {fixture.total_goals:.1f} + gap {mismatch_goal_bonus(elo_diff):.2f})"
               + (f"  [{fixture.notes}]" if fixture.notes else ""))
 
     with out_path.open("w", newline="", encoding="utf-8") as handle:

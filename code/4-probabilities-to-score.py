@@ -105,7 +105,7 @@ def fit_lambdas(target: tuple[float, float, float], rho: float) -> tuple[float, 
         return (ph - target[0]) ** 2 + (pd - target[1]) ** 2 + (pa - target[2]) ** 2
 
     best = (1.3, 1.1)
-    lo_h, hi_h, lo_a, hi_a = 0.1, 4.5, 0.1, 4.5
+    lo_h, hi_h, lo_a, hi_a = 0.1, 5.0, 0.1, 5.0
     for step in (0.1, 0.01, 0.001):
         best_loss = float("inf")
         h = lo_h

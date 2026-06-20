@@ -55,14 +55,20 @@ home_adv_elo — single value applied to the home side, range 0..100:
   team in a US city): 25-50
 - Genuinely neutral: 0
 
-total_goals — expected total goals in the match, range 2.0..3.2, default 2.5:
-- Two defensive/cautious teams, knockout caution, or a likely convenient draw: 2.0-2.3
+total_goals — match TEMPO as total goals for an evenly matched pair, range
+2.4..3.4, default 2.9. Do NOT raise this for a strong favourite: the pipeline
+already adds mismatch goals from the Elo gap (+1 goal per 400 Elo), so this
+column is only about how open or cautious the game is, independent of who is the
+better side. Double-counting here inflates blowouts.
+- Two defensive/cautious teams, or knockout caution: 2.4-2.6
 - Extreme heat at kickoff (slows tempo): subtract 0.1-0.2
-- Two open attacking teams or a huge favourite vs weak defence: 2.8-3.2
+- Two open, attack-minded teams who trade chances: 3.1-3.4
+- No strong tempo signal: 2.9
 
-rho — Dixon-Coles low-score correlation, range -0.20..0.00, default -0.10:
-- More negative (-0.15 to -0.20) when a tight low-scoring draw is plausible
-- 0.00 when an open high-scoring game is expected
+rho — Dixon-Coles low-score correlation, range -0.15..0.00, default -0.05. Keep
+it gentle; most World Cup games are open, so lean toward 0.
+- 0.00 when an open, high-scoring game is expected (the common case)
+- -0.10 to -0.15 only when a tight, low-scoring 0-0/1-1 grind is genuinely likely
 
 ## Output contract
 
@@ -71,8 +77,8 @@ or after, no markdown outside the block. Header row required:
 
 ```csv
 home_team,away_team,stage,elo_adj_home,elo_adj_away,home_adv_elo,total_goals,rho,notes
-Mexico,South Africa,group,0,-25,100,2.4,-0.10,SA first-choice GK injured; altitude+crowd
-Canada,Qatar,group,0,0,100,2.6,-0.10,no significant news either side
+Mexico,South Africa,group,0,-25,100,2.9,-0.05,SA first-choice GK injured; altitude+crowd
+Canada,Qatar,group,0,0,100,2.9,-0.05,no significant news either side
 ```
 
 Rules:
