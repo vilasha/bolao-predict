@@ -29,11 +29,81 @@ Brazil vs Haiti, group stage, Philadelphia Stadium (Philadelphia), 01:30 local
 Turkey vs Paraguay, group stage, San Francisco Bay Area Stadium (Santa Clara), 04:00 local
 Netherlands vs Sweden, group stage, Houston Stadium (Houston), 18:00 local
 Germany vs Ivory Coast, group stage, Toronto Stadium (Toronto), 21:00 local
+Ecuador vs Curaacao, group stage, Kansas City Stadium (Kansas City), 01:00 local
+Tunisia vs Japan, group stage, Estadio Monterrey (Guadalupe), 05:00 local
+Spain vs Saudi Arabia, group stage, Atlanta Stadium (Atlanta), 17:00 local
+Belgium vs Iran, group stage, Los Angeles Stadium (Inglewood), 20:00 local
+Uruguay vs Cape Verde Islands, group stage, Miami Stadium (Miami Gardens), 23:00 local
+New Zealand vs Egypt, group stage, BC Place Vancouver (Vancouver), 02:00 local
+Argentina vs Austria, group stage, Dallas Stadium (Arlington), 18:00 local
+France vs Iraq, group stage, Philadelphia Stadium (Philadelphia), 22:00 local
+Norway vs Senegal, group stage, New York New Jersey Stadium (East Rutherford), 01:00 local
+Jordan vs Algeria, group stage, San Francisco Bay Area Stadium (Santa Clara), 04:00 local
+Portugal vs Uzbekistan, group stage, Houston Stadium (Houston), 18:00 local
+England vs Ghana, group stage, Boston Stadium (Foxborough), 21:00 local
+Panama vs Croatia, group stage, Toronto Stadium (Toronto), 00:00 local
+Colombia vs Congo DR, group stage, Estadio Guadalajara (Zapopan), 03:00 local
+Switzerland vs Canada, group stage, BC Place Vancouver (Vancouver), 20:00 local
+Bosnia-Herzegovina vs Qatar, group stage, Seattle Stadium (Seattle), 20:00 local
+Morocco vs Haiti, group stage, Atlanta Stadium (Atlanta), 23:00 local
+Scotland vs Brazil, group stage, Miami Stadium (Miami Gardens), 23:00 local
+Czechia vs Mexico, group stage, Mexico City Stadium (Mexico City), 02:00 local
+South Africa vs South Korea, group stage, Estadio Monterrey (Guadalupe), 02:00 local
+Ecuador vs Germany, group stage, New York New Jersey Stadium (East Rutherford), 21:00 local
+Curaçao vs Ivory Coast, group stage, Philadelphia Stadium (Philadelphia), 21:00 local
+Tunisia vs Netherlands, group stage, Kansas City Stadium (Kansas City), 00:00 local
+Japan vs Sweden, group stage, Dallas Stadium (Arlington), 00:00 local
+Paraguay vs Australia, group stage, San Francisco Bay Area Stadium (Santa Clara), 03:00 local
+Turkey vs United States, group stage, Los Angeles Stadium (Inglewood), 03:00 local
+Norway vs France, group stage, Boston Stadium (Foxborough), 20:00 local
+Senegal vs Iraq, group stage, Toronto Stadium (Toronto), 20:00 local
+Uruguay vs Spain, group stage, Estadio Guadalajara (Zapopan), 01:00 local
+Cape Verde Islands vs Saudi Arabia, group stage, Houston Stadium (Houston), 01:00 local
+Egypt vs Iran, group stage, Seattle Stadium (Seattle), 04:00 local
+New Zealand vs Belgium, group stage, BC Place Vancouver (Vancouver), 04:00 local
+Croatia vs Ghana, group stage, Philadelphia Stadium (Philadelphia), 22:00 local
+Panama vs England, group stage, New York New Jersey Stadium (East Rutherford), 22:00 local
+Colombia vs Portugal, group stage, Miami Stadium (Miami Gardens), 00:30 local
+Congo DR vs Uzbekistan, group stage, Atlanta Stadium (Atlanta), 00:30 localCape Verde Islands
+J00:30 localordan vs Argentina, group stage, Dallas Stadium (Arlington), 03:00 local
+Algeria vs Austria, group stage, Kansas City Stadium (Kansas City), 03:00 local
+South Africa vs Canada, round of 32, Los Angeles Stadium (Inglewood), 20:00 local
+Brazil vs Japan, round of 32, Houston Stadium (Houston), 18:00 local
+Germany vs Paraguay, round of 32, Boston Stadium (Foxborough), 21:30 local
+Netherlands vs Morocco, round of 32, Estadio Monterrey (Guadalupe), 02:00 local
+Ivory Coast vs Norway, round of 32, Dallas Stadium (Arlington), 18:00 local
+France vs Sweden, round of 32, New York New Jersey Stadium (East Rutherford), 22:00 local
+Mexico vs Ecuador, round of 32, Mexico City Stadium (Mexico City), 02:00 local
+England vs Congo DR, round of 32, Atlanta Stadium (Atlanta), 17:00 local
+Belgium vs Senegal, round of 32, Seattle Stadium (Seattle), 21:00 local
+USA vs Bosnia and Herzegovina, round of 32, San Francisco Bay Area Stadium (Santa Clara), 01:00 local
+Spain vs Austria, round of 32, Los Angeles Stadium (Inglewood), 20:00 local
+Portugal vs Croatia, round of 32, Toronto Stadium (Toronto), 00:00 local
+Switzerland vs Algeria, round of 32, BC Place Vancouver (Vancouver), 04:00 local
+Australia vs Egypt, round of 32, Dallas Stadium (Arlington), 19:00 local
+Argentina vs Cape Verde, round of 32, Miami Stadium (Miami Gardens), 23:00 local
+Colombia vs Ghana, round of 32, Kansas City Stadium (Kansas City), 02:30 local
+Canada vs Morocco, round of 16, Houston Stadium (Houston), 18:00 local
+Paraguay vs France, round of 16, Philadelphia Stadium (Philadelphia), 22:00 local
+Brazil vs Norway, round of 16, New York New Jersey Stadium (East Rutherford), 21:00 local
+Mexico vs England, round of 16, Mexico City Stadium (Mexico City), 01:00 local
+Portugal vs Spain, round of 16, Dallas Stadium (Arlington), 20:00 local
+USA vs Belgium, round of 16, Seattle Stadium (Seattle), 01:00 local
+Argentina vs Egypt, round of 16, Atlanta Stadium (Atlanta), 17:00 local
+Switzerland vs Colombia, round of 16, BC Place Vancouver (Vancouver), 21:00 local
+France vs Morocco, Quarter-Finals, Boston Stadium (Foxborough), 21:00 local
+Spain vs Belgium, Quarter-Finals, Los Angeles Stadium (Inglewood), 20:00 local
+Norway vs England, Quarter-Finals, Miami Stadium (Miami Gardens), 22:00 local
+Argentina vs Switzerland, Quarter-Finals, Kansas City Stadium (Kansas City), 02:00 local
+France vs Spain, Semi-Finals, Dallas Stadium (Arlington), 20:00 local
+England vs Argentina, Semi-Finals, Atlanta Stadium (Atlanta), 20:00 local
+France vs England, Third Place, Miami Stadium (Miami Gardens), 22:00 local
+Spain vs Argentina, Final, New York New Jersey Stadium (East Rutherford), 20:00 local
 
 
 Results
 
-Mexico vs South Africa - preidicted 2-1, actual 2-1, result exact (25 points)
+Mexico vs South Africa - predicted 2-1, actual 2-1, result exact (25 points)
 South Korea vs Czechia - predicted 1-0, actual 2-1, result difference (18 points)
 Canada vs Bosnia and Herzegovina - predicted 1-0, actual 1-1, result miss (0 points)
 United States vs Paraguay - predicted 1-0, actual 4-1, result outcome (12 points)
@@ -65,5 +135,75 @@ United States vs Australia - predicted 2-1, actual 2-0, result outcome (12 point
 Scotland vs Morocco - predicted 1-1, actual 0-1, result miss (0 points)
 Brazil vs Haiti - predicted 3-1, actual 3-0, result outcome (12 points)
 Turkey vs Paraguay - predicted 2-1, actual 0-1, result miss (0 points)
-Netherlands vs Sweden - predicted 3-2, actual
-Germany vs Ivory Coast - predicted 4-0, actual 
+Netherlands vs Sweden - predicted 3-2, actual 5-1, result outcome (12 points)
+Germany vs Ivory Coast - predicted 4-0, actual 2-1, result outcome (12 points)
+Ecuador vs Curaacao - predicted 3-0, actual 0-0, result miss (0 points)
+Tunisia vs Japan - predicted 0-2, actual 0-4, result outcome (12 points)
+Spain vs Saudi Arabia - predicted 3-0, actual 4-0, result outcome (12 points)
+Belgium vs Iran - predicted 2-1, actual 0-0, result miss (0 points)
+Uruguay vs Cape Verde Islands - predicted 2-0, actual 2-2, result miss (0 points)
+New Zealand vs Egypt - predicted 1-2, actual 1-3, result outcome (12 points)
+Argentina vs Austria - predicted 2-0, actual 2-0, result exact (25 points)
+France vs Iraq - predicted 3-0, actual 3-0, result exact (25 points)
+Norway vs Senegal - predicted 2-1, actual 3-2, result difference (18 points)
+Jordan vs Algeria - predicted 1-2, actual 1-2, result exact (25 points)
+Portugal vs Uzbekistan - predicted 4-0, actual 5-0, result outcome (12 points)
+England vs Ghana - predicted 3-0, actual 0-0, result miss (0 points)
+Panama vs Croatia - predicted 1-2, actual 0-1, result difference (18 points)
+Colombia vs Congo DR - predicted 3-1, actual 1-0, result outcome (12 points)
+Switzerland vs Canada - predicted 1-1, actual 2-1, result miss (0 points)
+Bosnia-Herzegovina vs Qatar - predicted 2-1, actual 3-1, result outcome (12 points)
+Morocco vs Haiti - predicted 2-0, actual 4-2, result difference (18 points)
+Scotland vs Brazil - predicted 1-2, actual 0-3, result outcome (12 points)
+Czechia vs Mexico - predicted 0-3, actual 0-3, result exact (25 points)
+South Africa vs South Korea - predicted 0-2, actual 1-0, result miss (0 points)
+Ecuador vs Germany - predicted 1-2, actual 2-1, result miss (0 points)
+Curaçao vs Ivory Coast - predicted 0-2, actual 0-2, result exact (25 points)
+Tunisia vs Netherlands - predicted 0-3, actual 1-3, result outcome (12 points)
+Japan vs Sweden -  predicted 2-1, actual 1-1, result miss (0 points)
+Paraguay vs Australia - predicted 0-1, actual 0-0, result miss (0 points)
+Turkey vs United States - predicted 2-1, actual 3-2, result difference (18 points)
+Norway vs France - predicted 2-3, actual 1-4, result outcome (12 points)
+Senegal vs Iraq - predicted 3-1, actual 5-0, result outcome (12 points)
+Uruguay vs Spain - predicted 1-3, actual 0-1, result outcome (12 points)
+Cape Verde Islands vs Saudi Arabia - predicted  2-1, actual 0-0, result miss (0 points)
+Egypt vs Iran - predicted 1-2, actual 1-1, result miss (0 points)
+New Zealand vs Belgium - predicted 0-2, actual 1-5, result outcome (12 points)
+Croatia vs Ghana - predicted 2-0, actual 2-1, result outcome (12 points)
+Panama vs England - predicted 0-3, actual 0-2, result outcome (12 points)
+Colombia vs Portugal - predicted 1-1, actual 0-0, result draw (15 points)
+Congo DR vs Uzbekistan - predicted 1-2, actual 3-1, result miss (0 points)
+Jordan vs Argentina - predicted 0-3, actual 1-3, result outcome (12 points)
+Algeria vs Austria - predicted 0-1, actual 3-3, result miss (0 points)
+South Africa vs Canada - predicted 1-2, actual 0-1, result difference (36 points)
+Brazil vs Japan - predicted 2-1, actual 2-1, result exact (50 points)
+Germany vs Paraguay - predicted 2-1, actual 1-1, result miss (0 points)
+Netherlands vs Morocco - predicted 2-1, actual 1-1, result miss (0 points)
+Ivory Coast vs Norway - predicted 1-2, actual 1-2, result exact (50 points)
+France vs Sweden - predicted 3-0, actual 3-0, result exact (50 points)
+Mexico vs Ecuador - predicted 3-0, actual 2-0, result outcome (24 points)
+England vs Congo DR - predicted 2-0, actual 2-1, result outcome (24 points)
+Belgium vs Senegal - predicted 1-0, actual 3-2, result difference (36 points)
+USA vs Bosnia and Herzegovina - predicted 2-1, actual 2-0, result outcome (24 points)
+Spain vs Austria - predicted 2-0, actual 3-0, result outcome (24 points)
+Portugal vs Croatia - predicted 2-1, actual 2-1, result exact (50 points)
+Switzerland vs Algeria - predicted 2-1, actual 2-0, result outcome (24 points)
+Australia vs Egypt - predicted 1-0, actual 1-1, result miss (0 points)
+Argentina vs Cape Verde Islands - predicted 4-0, actual 3-2, result outcome (24 points)
+Colombia vs Ghana - predicted 3-0, actual 1-0, result outcome (24 points)
+Canada vs Morocco - predicted 1-2, actual 0-3, result outcome (36 points)
+Paraguay vs France - predicted 0-2, actual 0-1, result outcome (36 points)
+Brazil vs Norway - predicted 2-1, actual 1-2, result miss (0 points)
+Mexico vs England - predicted 3-1, actual 2-3, result miss (0 points)
+Portugal vs Spain - predicted 1-2, actual 0-1, result difference (54 points)
+USA vs Belgium - predicted 1-0, actual 1-4, result miss (0 points)
+Argentina vs Egypt - predicted 3-0, actual 3-2, result outcome (36 points)
+Switzerland vs Colombia - predicted 1-2, actual 0-0, result miss (0 points)
+France vs Morocco - predicted 2-1, actual 2-0, result outcome (48 points)
+Spain vs Belgium - predicted 1-0, actual 2-1, result difference (72 points)
+Norway vs England - predicted 1-2, actual 1-2, result exact (100 points)
+Argentina vs Switzerland - predicted 3-1, actual 3-1, result exact (100 points)
+France vs Spain - predicted 1-1, actual 0-2, result miss (0 points)
+England vs Argentina - predicted 1-2, actual 1-2, result exact (125 points)
+France vs England - predicted 2-1, actual 4-6, result miss (0 points)
+Spain vs Argentina - predicted 1-0, actual 1-0, result exact (150 points)
